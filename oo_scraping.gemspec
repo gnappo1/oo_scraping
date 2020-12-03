@@ -21,4 +21,11 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.add_development_dependency 'pry'
+  spec.add_development_dependency 'colorize'
+  spec.add_development_dependency 'tty-table'
+  spec.add_development_dependency 'rmagick'
+  spec.add_development_dependency 'tco'
+  spec.add_development_dependency 'catpix'
+  
 end
